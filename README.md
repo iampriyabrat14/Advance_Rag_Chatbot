@@ -7,6 +7,9 @@
 
 A **production-ready, full-stack RAG (Retrieval-Augmented Generation) chatbot** built from scratch — designed to showcase advanced AI engineering skills for interviews and portfolio demonstrations.
 
+<img width="1889" height="982" alt="image" src="https://github.com/user-attachments/assets/c552c9db-2205-4f38-8755-4e325c5c068c" />
+
+
 ---
 
 ## ✨ Key Features
