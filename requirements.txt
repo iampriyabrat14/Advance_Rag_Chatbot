@@ -1,0 +1,20 @@
+# ── Core ──────────────────────────────────────────────────────────────────────
+flask>=3.0.0
+flask-session>=0.6.0
+werkzeug>=3.0.0
+
+# ── Document Processing ───────────────────────────────────────────────────────
+pypdf>=4.0.0            # PDF reading (successor to PyPDF2)
+
+# ── Vector Store ──────────────────────────────────────────────────────────────
+chromadb>=0.4.22        # Persistent vector database
+sentence-transformers>=2.6.0  # Bi-encoder embeddings + cross-encoder re-ranking
+
+# ── LLM Providers (choose one) ────────────────────────────────────────────────
+openai>=1.12.0          # OpenAI GPT models
+# ollama                # Uncomment for local LLMs (pip install ollama)
+
+# ── Utilities ─────────────────────────────────────────────────────────────────
+python-dotenv>=1.0.0    # .env file loading
+requests>=2.31.0        # HTTP for Ollama integration
+numpy>=1.24.0           # Required by chromadb/transformers
