@@ -151,7 +151,7 @@ Open **http://localhost:5000** 🎉
 ```env
 LLM_PROVIDER=openai
 OPENAI_API_KEY=sk-your-key
-LLM_MODEL=gpt-3.5-turbo      # or gpt-4, gpt-4o
+LLM_MODEL=gpt-4.1-mini      # or gpt-4, gpt-4o
 ```
 
 ### Using Ollama (Free, Local)
